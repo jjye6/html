@@ -1,0 +1,14 @@
+<label> text </label>
+- assigns a text label to describe an element in a form
+
+<fieldset> elements </fieldset>
+- group and organize element in a form
+
+<legend> text </legend>
+- provides a title for a form
+
+<div> elements </div>
+- creates divisions within a web page
+
+<script> js code </script>
+- inserts javascript code

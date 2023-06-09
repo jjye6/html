@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Print text</title>
+    <style>
+        #display_text {
+            color: red;
+            font-size: 20px;
+            font-weight: bold;
+            font-style: italic
+        }
+    </style>
+</head>
+<body>
+    <h1>Print text</h1>
+    <button onclick="display_text()">PRINT</button>
+    <!-- Assigns a unique identifier to a specific element -->
+    <!-- Creates an empy paragraph so that text can be displayed later -->
+    <p id="display_text"></p>
+
+            <!-- Obtains a reference to the paragraph element with the id "display_text" -->
+            <!-- Establishes the text content -->
+    <script>
+        function display_text() {
+            var text = document.getElementById("display_text");
+            text.innerText = "Hello world";
+        }
+    </script>
+</body>
+</html>

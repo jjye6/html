@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML form</title>
+</head>
+<body>
+    <h1>HTML form</h1>
+    <h3>Basic form design</h3>
+    <!-- action="": send the information to a URL -->
+    <!-- #: indicates that the data form the form is managed within the same page without additional action -->
+    <form action="#">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <!-- Name input field -->
+                <p><label>Name : <input name="name" /></label></p>
+            <!-- Radio button input field -->
+                <p><label>Gender : <input type="radio" name="gender"
+                value="male" /> Male</label> <input type="radio" name="gender"
+                value="female" /> Female</p>
+            <!-- Email input field -->
+                <p><label>Email : <input type="email"
+                    name="email" /></label></p>
+            <!-- Date input field -->
+                <p><label>Date of Birth : <input type="date"
+                    name="birthDate"></label></p>
+            <!-- Address and textarea field -->
+                <p><label>Address : <textarea name="address" cols="30" rows="3"></textarea></label></p>
+            <!-- Submit button -->
+                <p><button type="submit">Submit</button></p>
+        </fieldset>
+    </form>
+</body>
+</html>
